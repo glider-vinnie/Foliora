@@ -1,0 +1,26 @@
+{
+  "model_name": "Linear Regression",
+  "metrics": [
+    {
+      "model": "Linear Regression",
+      "mae": 0.997,
+      "rmse": 1.681
+    },
+    {
+      "model": "Random Forest",
+      "mae": 1.061,
+      "rmse": 1.721
+    },
+    {
+      "model": "XGBoost",
+      "mae": 1.026,
+      "rmse": 1.676
+    }
+  ],
+  "rows": 48764,
+  "titles": 1780,
+  "start": "2005-04-01",
+  "end": "2026-08-01",
+  "trained_rows": 44186,
+  "holdout_start": "2022-06-01"
+}
